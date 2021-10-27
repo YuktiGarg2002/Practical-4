@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>VACCINATION STATUS</h1>
+    <form action="mailto:yuktigarg2002@gmail.com" method="post" enctype="text/plain">
+      <label> Email:</label>
+      <input type="text" name="yourEmail" value=""><br><br>
+      <label> Name:</label>
+      <input type="text" name="yourName" value=""><br><br>
+      <label> Occupation:</label>
+      <input type="text" name="youroccupation" value=""><br><br>
+       <br><br>
+       <label for="status">Status of vaccination:</label>
+       <select id="status" name="status">
+       <option value="No jabs taken">No jabs taken</option>
+       <option value="Only one dose">Only one dose</option>
+       <option value="fiat">Both the doses</option>
+       </select><br><br>
+       <p>Name of the vaccine</p>
+       <input type="radio" id="Covaxin" name="vaccine" value="Covaxin">
+       <label for="Covaxin">Covaxin</label>
+       <input type="radio" id="Covishield" name="vaccine" value="Covishield">
+       <label for="Covishield">Covishield</label>
+       <input type="radio" id="Sputnik V" name="vaccine" value="Sputnik V">
+       <label for="Sputnik V">Sputnik V</label>
+       <br><br>
+       <textarea name="Secon dose due on(only for those who have taken only one dose)" rows="8" cols="50">Your views on completion of 100 crores of doses </textarea><br>
+       <input type="submit" name="" ><br>
+       <input type="reset" name="" >
+
+       </form>
+  </body>
+</html>
